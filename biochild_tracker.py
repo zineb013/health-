@@ -9,7 +9,7 @@ from PyQt5.QtGui import QFont
 class BioGrowthApp(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("BioChild - Dynamic Child Growth & Health Tracker")
+       self.setWindowTitle("PediatricHealthEngine - Dynamic Child Growth & Health Tracker")
         self.setGeometry(100, 100, 1100, 720)
         self.setStyleSheet("background-color: #f8fafc;")
 
@@ -45,7 +45,7 @@ class BioGrowthApp(QMainWindow):
         sidebar_layout = QVBoxLayout(sidebar)
         sidebar_layout.setContentsMargins(15, 25, 15, 25)
 
-        brand = QLabel("BioChild Health", sidebar)
+        brand = QLabel("PediatricHealthEngine", sidebar)
         brand.setFont(QFont("Segoe UI", 18, QFont.Bold))
         brand.setStyleSheet("color: #ffffff; margin-bottom: 30px;")
         brand.setAlignment(Qt.AlignCenter)
